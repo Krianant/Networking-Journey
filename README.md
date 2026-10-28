@@ -33,9 +33,9 @@ This repository serves as my personal networking knowledge base, practical lab p
 | **03** | Ethernet, MAC Addresses, and ARP            | [03-Switching](./03-Switching/) | 🟡 Practicing |
 | **04** | Cisco IOS and Basic Switch Configuration    | [04-Routing](./04-Routing/) & [Switch Config](./03-Switching/basic-switch-configuration.md) | 🔜 Next       |
 | **05** | VLANs, Trunking, and Inter-VLAN Routing     | [05-Cisco-Packet-Tracer-Labs](./05-Cisco-Packet-Tracer-Labs/) | ⏳ Upcoming    |
-| **06** | Static Routing and Default Routes           | [04-Routing](./04-Routing/) | ⏳ Upcoming    |
-| **07** | OSPF and Dynamic Routing                    | [04-Routing](./04-Routing/) | ⏳ Upcoming    |
-| **08** | DHCP, DNS, NAT, and Network Services        | [01-Networking-Fundamentals](./01-Networking-Fundamentals/common-network-protocols.md) | ⏳ Upcoming    |
+| **06** | Static Routing and Default Routes           | [04-Routing](./04-Routing/static-routing.md) | ⏳ Upcoming    |
+| **07** | OSPF and Dynamic Routing                    | [04-Routing](./04-Routing/ospf-configuration.md) & [OSPF Lab](./05-Cisco-Packet-Tracer-Labs/ospf-dynamic-routing/) | ⏳ Upcoming    |
+| **08** | DHCP, DNS, NAT, and Network Services        | [NAT/PAT](./04-Routing/nat-pat-configuration.md), [DHCP & DNS](./07-Network-Troubleshooting/dhcp-dns-troubleshooting.md) & [Lab](./05-Cisco-Packet-Tracer-Labs/nat-pat/) | ⏳ Upcoming    |
 | **09** | ACLs and Network Security                   | [08-Network-Security](./08-Network-Security/) | ⏳ Upcoming    |
 | **10** | IPv6, Wireless, and Network Management      | [01-Networking-Fundamentals](./01-Networking-Fundamentals/) | ⏳ Upcoming    |
 | **11** | Network Troubleshooting and Packet Analysis | [06-Wireshark](./06-Wireshark/) & [07-Troubleshooting](./07-Network-Troubleshooting/) | ⏳ Upcoming    |
@@ -60,9 +60,9 @@ My lab collection will include:
 * [ ] [VLAN and trunk configuration](./05-Cisco-Packet-Tracer-Labs/inter-vlan-routing/)
 * [ ] [Inter-VLAN routing](./05-Cisco-Packet-Tracer-Labs/inter-vlan-routing/)
 * [ ] [Static and default routing](./05-Cisco-Packet-Tracer-Labs/static-routing/)
-* [ ] OSPF configuration
-* [ ] DHCP and DNS troubleshooting
-* [ ] NAT and PAT configuration
+* [ ] [OSPF configuration](./04-Routing/ospf-configuration.md) & [OSPF Dynamic Routing Lab](./05-Cisco-Packet-Tracer-Labs/ospf-dynamic-routing/)
+* [ ] [DHCP and DNS troubleshooting](./07-Network-Troubleshooting/dhcp-dns-troubleshooting.md)
+* [ ] [NAT and PAT configuration](./04-Routing/nat-pat-configuration.md) & [NAT/PAT Lab](./05-Cisco-Packet-Tracer-Labs/nat-pat/)
 * [ ] [Access Control Lists (ACLs)](./08-Network-Security/acl-basics.md)
 * [ ] [Wireshark packet analysis](./06-Wireshark/)
 * [ ] [Network troubleshooting scenarios](./07-Network-Troubleshooting/)
@@ -133,7 +133,9 @@ Networking-Journey/
 ├── 04-Routing/
 │   ├── default-gateway.md
 │   ├── static-routing.md
-│   └── routing-table-analysis.md
+│   ├── routing-table-analysis.md
+│   ├── ospf-configuration.md
+│   └── nat-pat-configuration.md
 │
 ├── 05-Cisco-Packet-Tracer-Labs/
 │   ├── README.md
@@ -143,7 +145,11 @@ Networking-Journey/
 │   │   └── README.md
 │   ├── inter-vlan-routing/
 │   │   └── README.md
-│   └── static-routing/
+│   ├── static-routing/
+│   │   └── README.md
+│   ├── ospf-dynamic-routing/
+│   │   └── README.md
+│   └── nat-pat/
 │       └── README.md
 │
 ├── 06-Wireshark/
@@ -153,7 +159,8 @@ Networking-Journey/
 │
 ├── 07-Network-Troubleshooting/
 │   ├── connectivity-troubleshooting.md
-│   └── troubleshooting-commands.md
+│   ├── troubleshooting-commands.md
+│   └── dhcp-dns-troubleshooting.md
 │
 └── 08-Network-Security/
     ├── acl-basics.md

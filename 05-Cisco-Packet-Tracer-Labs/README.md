@@ -20,6 +20,8 @@ Each lab is documented with:
 | **02** | [**Subnetting & Addressing Lab**](./subnetting-lab/) | Implementing VLSM subnets across multiple router interfaces, configuring default gateways, testing subnet isolation. | IPv4, Subnetting, VLSM, Default Gateway | ✅ Ready |
 | **03** | [**Inter-VLAN Routing (ROAS)**](./inter-vlan-routing/) | VLAN segmentation (VLAN 10 Sales, VLAN 20 Engineering), 802.1Q trunking, Router-on-a-Stick sub-interfaces. | 802.1Q, VLANs, Sub-interfaces, Trunking | ✅ Ready |
 | **04** | [**Multi-Router Static Routing**](./static-routing/) | 3-router WAN topology, configuring static and default routes, floating static route failover testing. | Static Routes, Floating Routes, Administrative Distance | ✅ Ready |
+| **05** | [**Single-Area OSPFv2 Routing**](./ospf-dynamic-routing/) | 3-router OSPF Area 0 meshed network, Router-ID, passive interfaces, and link convergence failover testing. | OSPFv2, Dijkstra SPF, Cost, Passive-Interface | ✅ Ready |
+| **06** | [**NAT & PAT (Overload)**](./nat-pat/) | Enterprise edge router with dynamic PAT, Static NAT port forwarding, public DNS and simulated ISP. | NAT, PAT Overload, Port Forwarding, RFC 1918 | ✅ Ready |
 
 ---
 
