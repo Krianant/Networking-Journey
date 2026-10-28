@@ -1,0 +1,19 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Cisco Packet Tracer temp files and backups
+*.pka.bak
+*.pkt.bak
+*.autosave
+
+# Editor and IDE configurations
+.vscode/
+.idea/
+*.swp
+*~
+
+# Temporary scratchpad
+scratch/
+tmp/
